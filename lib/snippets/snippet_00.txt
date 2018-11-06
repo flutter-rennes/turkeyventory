@@ -1,0 +1,19 @@
+class TurkeyCardList extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return StreamBuilder<QuerySnapshot>(
+      stream: Firestore.instance.collection('turkeys').snapshots(),
+      builder: (context, snapshot) {
+        if (!snapshot.hasData) return const Text('Loading...');
+        final int turkeyCount = snapshot.data.documents.length;
+        return ListView.builder(
+          itemCount: turkeyCount,
+          itemBuilder: (_, int index) {
+            final DocumentSnapshot document = snapshot.data.documents[index];
+            return Text(document['name']);
+          },
+        );
+      },
+    );
+  }
+}

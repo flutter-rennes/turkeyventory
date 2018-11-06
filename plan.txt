@@ -1,0 +1,43 @@
+Montrer firestore
+
+Vous aviez un Layout Editor avant? Oubliez ça, c'est le passé
+Body empty - Explain 
+
+Ajouter un autre StatelessWidget pour faire le Body
+Live coder la liste.
+
+Copier le model.
+Montrer que ça marche avec le modèle.
+
+Montrer le dribbble : 
+https://dribbble.com/shots/2311820-Exploring?fbclid=IwAR2eBGEPrPHgWaCQ87Xk_rOzUYtCm4wmnNUxhTSryV3lhh2jXxnujwPUYo0
+
+Créer TurkeyCard
+
+Snippet 01 Copier/Coller valeurs.
+Ajouter la stack
+
+LiveCoding du padding et de la couleur
+
+Ajouter turkey_widgets
+
+Copier/Coller le bouton depuis snippet_02. Montrer les changements dans Firebase.
+
+=> On peut aller plus loin si le temps le permet.
+
+Créer un autre fichier pour l'autre écran avec un StatelessWidget.
+Ajouter model et couleur
+
+Faire la navigation entre les deux écrans.
+
+Ajouter CustomScrollView et SliverappBar
+
+Add SliverToBoxAdapter et snippets 4 et 5.
+
+Ajouter les Hero (Ne pas oublier les ids). => Juste au niveau des Card
+
+Ajouter le bouton - si nécessaire
+
+
+
+

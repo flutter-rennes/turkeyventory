@@ -1,0 +1,2 @@
+Navigator.of(context).push(
+            MaterialPageRoute(builder: (_) => TurkeyScreen(model, color)),

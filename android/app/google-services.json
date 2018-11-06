@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "33368239767",
+    "firebase_url": "https://turkeyventory.firebaseio.com",
+    "project_id": "turkeyventory",
+    "storage_bucket": "turkeyventory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33368239767:android:0549ecf894f9c61f",
+        "android_client_info": {
+          "package_name": "com.fltr.turkeyventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33368239767-shodu582ibvisonngsl03c7ksdeq6p55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6sfkTFcOesYieSnVHKQgx-nVZHWYdBkw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

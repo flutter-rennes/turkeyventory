@@ -1,0 +1,14 @@
+static const double _appBarHeight = 256.0;
+
+SliverAppBar(
+    title: Text(model.name),
+    expandedHeight: _appBarHeight,
+    pinned: true,
+    flexibleSpace: FlexibleSpaceBar(
+        background: Image.network(
+        model.images[0],
+        fit: BoxFit.cover,
+        height: _appBarHeight,
+        ),
+    ),
+    ),

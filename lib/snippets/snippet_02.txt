@@ -1,0 +1,21 @@
+Align(
+    alignment: isLeft
+        ? Alignment.bottomRight
+        : Alignment.bottomLeft,
+    child: RawMaterialButton(
+    onPressed: () {
+        Firestore.instance
+            .runTransaction((transaction) async {
+        DocumentSnapshot freshSnap = await transaction
+            .get(model.snapshot.reference);
+        await transaction.update(freshSnap.reference,
+            {'count': freshSnap['count'] + 1});
+        });
+    },
+    shape: const CircleBorder(),
+    constraints: BoxConstraints.tightFor(
+        width: 60.0, height: 60.0),
+    fillColor: Colors.white,
+    child: Icon(Icons.add),
+    ),
+),
